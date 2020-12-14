@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background:  #414a4c;
+  font-family: sans-serif;
+  color: #ccc;
+}
+
+hr{
+height: 1px;
+color: orange;
+background-color: orange;
+border: none;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:orange; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}

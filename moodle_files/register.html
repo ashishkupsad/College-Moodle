@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset=UTF-8>
+<title>
+		Register
+	</title>
+
+</head>
+<body>
+<div id="container">
+<h2>Register</h2>
+	<form id="regform" action="register.php" method = "POST" enctype="multipart/form-data">
+			<div id="data">
+			
+			First name
+			<input name="fname" type = "text"/>
+			</br>
+			
+			Last name
+			<input name="lname" type = "text"/>
+			</br>
+			
+			User ID
+			<input name="uname" type = "text"/>
+			</br>
+			
+			Password
+			<input name="pass" type = "password"/>
+			</br>
+			
+			email ID
+			<input name="remail" type = "text"/>
+			</br>
+			
+			Gender
+			<input type="radio" name="gender" value="male"/> Male
+			<input type="radio" name="gender" value="female"/> Female<br>
+			</br>
+			
+			Position
+			<input type="radio" name="position" value="student"/> Student
+			<input type="radio" name="position" value="instructor"/> Instructor
+			</br>
+			
+			Department
+				<select name="dept" form="regform">
+					<option value="CS">CSE</option>
+					<option value="EE">EE</option>
+					<option value="ME">ME</option>
+				</select> 
+			</br>
+			
+			Batch
+				<select name="batch" form="regform">
+					<option value="2019">2019</option>
+					<option value="2018">2018</option>
+					<option value="2017">2017</option>
+					<option value="2016">2016</option>
+					<option value="instructor">instructor</option>
+				</select> 
+			</br>
+			
+			
+			</div>
+		<input type="submit" value="submit"/>
+	</form></br>
+	
+</div>	
+</body>
+</html>

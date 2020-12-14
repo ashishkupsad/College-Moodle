@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background:  #6B7A8F;
+  font-family: sans-serif;
+  color: #ccc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+nav {
+  width: 100%;
+  background: #260339;
+  height: 65px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: -4px;
+  width: 25%;
+  height: 100%;
+}
+
+nav ul li a {
+  color: rgba(152,116,170,0.65);
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  /*line-height: 65px;*/
+  
+  &:hover {
+    background: #160220;
+  }
+}

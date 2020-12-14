@@ -1,5 +1,5 @@
 # College Moodle
-### 1.Open Register_form.html to Register user (after registering)
+1. Open Register_form.html to Register user (after registering)
 
 ### Admin:
 1. Login as admin through login.html(username = admin and password = 123456)
